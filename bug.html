@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // This code attempts to change the innerHTML of a non-existent element
+    document.getElementById("nonExistentElement").innerHTML = "This will cause an error.";
+  </script>
+</body>
+</html>
